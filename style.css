@@ -47,7 +47,7 @@ nav ul .nav-icon{
 }
 /* nav menu section end */
 
-/* main section start */
+/* top section start */
 section{
     display: flex;
 }
@@ -75,5 +75,31 @@ section .btn{
 }
 section img{
     margin-left: 135px;
-    background-image:image;
+    background-image:url(/Image/images/);
+}
+.online-shop-logo{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+/* top section end */
+
+/* card scetion tart */
+main div .card-title{
+    text-align: center;
+    margin: 30px;
+}
+main section .card-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .image-container{
+    text-align: left;
+    /* padding: 30px 230px; */
+    border-radius: 10px;
+}
+.image-description{
+    text-align: left;
+  padding-left: 130px;
 }
